@@ -226,6 +226,10 @@
 
 	<script>
 
+		window.onbeforeunload = function(e) {
+			return 'Are you sure you want to leave this page?  You will lose any unsaved data.';
+		};
+		
 		UPTODATE('1 day');
 		M.environment('flow.jc');
 

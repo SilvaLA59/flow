@@ -45,7 +45,8 @@ exports.install = function(options) {
 	// or --> adds authorize flag
 	// options.auth = true;
 	// options.token = 'qR3878SAadada';
-	// options.limit = 50;
+	options.limit = 300;
+	options.backup = true;
 	// options.sharedfiles = true; // false by default, if true then it will use dep.min.jss/css from public directory /js/dep.min.js and /css/dep.min.css
 
 	OPT = options;
